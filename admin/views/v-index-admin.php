@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html class="backend">
 <!-- START Head -->
+
+<!-- test aaaa -->
 <head>
   <!-- START META SECTION -->
   <meta charset="utf-8">
@@ -415,51 +417,7 @@ JS aoutocomplate
         </a>
       </li>
 
-      <li>
-        <a href="javascript:void(0);" data-target="#guru" data-toggle="submenu" data-parent=".topmenu">
-          <span class="figure"><i class="ico-bubble-user"></i></span>
-          <span class="text">Guru</span>
-          <span class="arrow"></span>
-        </a>
-
-        <ul id="guru" class="submenu collapse ">
-          <li class="submenu-header ellipsis">Guru</li>
-          <li >
-            <a href="<?=base_url('index.php/register/registerGuru')?>">
-              <span class="text">Registrasi Guru</span>
-            </a>
-          </li>
-          <li >
-            <a href="<?=base_url('guru/daftar') ?>">
-              <span class="text">Daftar Guru</span>
-            </a>
-          </li>
-        </ul>
-
-      </li>
-
-      <li>
-        <a href="javascript:void(0);" data-target="#msiswa" data-toggle="submenu" data-parent=".topmenu">
-          <span class="figure"><i class="ico-users3"></i></span>
-          <span class="text">Siswa</span>
-          <span class="arrow"></span>
-        </a>
-
-        <ul id="msiswa" class="submenu collapse ">
-          <li class="submenu-header ellipsis">Siswa</li>
-          <li>
-            <a href="<?=base_url('siswa/daftarsiswa') ?>">
-              <span class="text">Registrasi Siswa</span>
-            </a>
-          </li>
-          <li>
-            <a href="<?=base_url('siswa/listSiswa') ?>">
-              <span class="text">Daftar Siswa</span>
-            </a>
-          </li>
-        </ul>
-      </li>
-
+      
       <li>
         <a href="javascript:void(0);" data-target="#mapel" data-toggle="submenu" data-parent=".topmenu">
           <span class="figure"><i class="ico-notebook"></i></span>
@@ -484,100 +442,7 @@ JS aoutocomplate
 
 
 
-      <li>
-       <a href="javascript:void(0);" data-target="#video" data-toggle="submenu" data-parent=".topmenu">
-        <span class="figure"><i class="ico-facetime-video"></i></span>
-        <span class="text">Video</span>
-        <span class="arrow"></span>
-      </a>
-
-      <ul id="video" class="submenu collapse ">
-        <li class="submenu-header ellipsis">Video</li>
-
-        <li >
-         <a href="<?=base_url('index.php/videoback/formupvideo')?>">
-          <span class="text">Upload Video</span>
-        </a>
-      </li>
-
-      <li>
-       <a href="javascript:void(0);" data-target="#filtervideo" data-toggle="submenu"  >
-
-        <span class="text">Daftar video</span>
-
-        <span class="arrow"></span>
-
-      </a>
-
-      <ul id="filtervideo" class="submenu collapse ">
-
-        <li class="submenu-header ellipsis">Daftar video</li>
-
-        <li><a href="<?=base_url('/index.php/videoback/daftarvideo')?>"><span class="text">Daftar Semua video</span>
-
-        </a></li>
-
-        <li><a href="javascript:void(0);" onclick="filter_video()"><span class="text">Filter Video</span>
-
-        </a></li>
-
-      </ul>
-    </li>
-
-  </ul>
-</li>
-
-<li>
-  <a href="javascript:void(0);" data-target="#gallery" data-toggle="submenu" data-parent=".topmenu">
-    <span class="figure"><i class="ico-images"></i></span>
-    <span class="text">Gallery</span>
-    <span class="arrow"></span>
-  </a>
-
-  <ul id="gallery" class="submenu collapse ">
-    <li class="submenu-header ellipsis">gallery</li>
-    <li >
-      <a href="<?=base_url('index.php/gallery')?>">
-        <span class="text">Gallery</span>
-      </a>
-    </li>
-    <li >
-      <a href="javascript:void(0)" onclick="filter_gallery()">
-        <span class="text">Filter Gallery</span>
-      </a>
-    </li>
-    <li >
-      <a href="javascript:void(0)" onclick="add_gallery()">
-        <span class="text">Tambahkan gallery</span> 
-      </a>
-    </li>
-
-  </ul>
-</li>
-
-<li>
-  <a href="javascript:void(0);" data-target="#materi" data-toggle="submenu" data-parent=".topmenu">
-    <span class="figure"><i class="ico-files"></i></span>
-    <span class="text">Materi</span>
-    <span class="arrow"></span>
-  </a>
-
-  <ul id="materi" class="submenu collapse ">
-    <li class="submenu-header ellipsis">Materi</li>
-
-    <li >
-      <a href="<?=base_url('index.php/materi/form_materi')?>" >
-        <span class="text">Form Materi</span> 
-      </a>
-    </li>
-    <li >
-      <a href="<?=base_url('index.php/materi/list_all_materi')?>">
-        <span class="text">Tambah Materi</span>
-      </a>
-    </li>
-
-  </ul>
-</li>
+     
 
 <li>
   <a href="javascript:void(0);" data-target="#banksoal" data-toggle="submenu" data-parent=".topmenu">
@@ -616,12 +481,8 @@ JS aoutocomplate
 
   </ul>
 </li>
-<li>
- <a href="<?= base_url('learningline') ?>">
-  <span class="figure"><i class="ico-list-ol"></i></span>
-  <span class="text">Learningline</span>
-</a>
-</li>
+
+
 <li>
  <a href="javascript:void(0);" data-target="#tryout" data-toggle="submenu" data-parent=".topmenu">
   <span class="figure"><i class="ico-clipboard"></i></span>
@@ -652,147 +513,7 @@ JS aoutocomplate
 </ul>
 </li>
 
-<li>
- <a href="javascript:void(0);" data-target="#mpengawas" data-toggle="submenu" data-parent=".topmenu">
-  <span class="figure"><i class="ico-clipboard"></i></span>
-  <span class="text">Pengawas</span>
-  <span class="arrow"></span>
-</a>
 
-<ul id="mpengawas" class="submenu collapse ">
-  <li class="submenu-header ellipsis">Pengawas</li>
-
-  <li >
-   <a href="<?= base_url('index.php/pengawas/formPengawas');?>">
-    <span class="text">Register Pengawas</span>
-  </a>
-</li>
-
-<li >
- <a href="<?= base_url('index.php/pengawas/listpengawas');?>" >
-  <span class="text">Daftar Pengawas</span>
-</a>
-</li>
-<li >
- <a href="<?= base_url('index.php/toback/listTo');?>">
-  <span class="text">Daftar Try Out</span>
-</a>
-</li>
-
-</ul>
-</li>
-
-
-
-<li>
-  <a href="javascript:void(0);" data-target="#pesan" data-toggle="submenu" data-parent=".topmenu">
-    <span class="figure"><i class="ico-bubble"></i></span>
-    <span class="text">Pesan</span>
-    <span class="arrow"></span>
-  </a>
-
-  <ul id="pesan" class="submenu collapse ">
-    <li class="submenu-header ellipsis">Pesan</li>
-
-    <li >
-      <a href="<?=  base_url('index.php/pesan')?>">
-        <span class="text">Daftar Pesan</span>
-      </a>
-    </li>
-
-  </ul>
-</li>
-<li>
-  <a href="javascript:void(0);" data-target="#testi" data-toggle="submenu" data-parent=".topmenu">
-    <span class="figure"><i class="ico-bubble-user"></i></span>
-    <span class="text">Testimoni</span>
-    <span class="arrow"></span>
-  </a>
-
-  <ul id="testi" class="submenu collapse ">
-    <li class="submenu-header ellipsis">Testimoni</li>
-
-    <li >
-      <a href="<?=  base_url('index.php/testimoni')?>">
-        <span class="text">Daftar Testimoni</span>
-      </a>
-    </li>
-
-  </ul>
-</li>
-<li>
-  <a href="javascript:void(0);" data-target="#subscribe" data-toggle="submenu" data-parent=".topmenu">
-    <span class="figure"><i class="ico-envelop2"></i></span>
-    <span class="text">Subscribe</span>
-    <span class="arrow"></span>
-  </a>
-
-  <ul id="subscribe" class="submenu collapse ">
-    <li class="submenu-header ellipsis">Subscribe</li>
-
-    <li >
-      <a href="<?=  base_url('index.php/subscribe')?>">
-        <span class="text">Kirim berita</span>
-      </a>
-    </li>
-    <li >
-      <a href="<?=  base_url('index.php/subscribe/daftarsubs')?>">
-        <span class="text">Daftar Subscribe</span>
-      </a>
-    </li>
-
-  </ul>
-</li>
-
-<!--Start menu konsultasi -->
-<li>
- <a href="javascript:void(0);" data-target="#konsultasi" data-toggle="submenu" data-parent=".topmenu">
-  <span class="figure"><i class="ico-clipboard"></i></span>
-  <span class="text">Konsultasi Forum</span>
-  <span class="arrow"></span>
-</a>
-
-<ul id="konsultasi" class="submenu collapse ">
-  <li class="submenu-header ellipsis">Konsultasi Forum/li>
-
-    <li >
-     <a href="javascript:void(0);">
-      <span class="text">Daftar Konsultasi Forum</span>
-    </a>
-  </li>
-
-  <li>
-   <a href="<?= base_url('index.php/konsulback/aq_konsul');?>">
-    <span class="text">Akumulasi Poin Konsultasi</span>
-  </a>
-</li>
-
-</ul>
-</li>
-
-<li>
-  <a href="<?=base_url('cabang') ?>" data-toggle="submenu" data-parent=".topmenu">
-    <span class="figure"><i class="ico-home11"></i></span>
-    <span class="text">Cabang</span>
-    <span class="arrow"></span>
-  </a>
-</li>
-
-<li>
- <a href="<?=base_url('bug') ?>" data-target="" data-toggle="submenu" data-parent=".topmenu">
-  <span class="figure"><i class="ico-bug"></i></span>
-  <span class="text">Pelaporan Bug</span>
-  <span class="arrow"></span>
-</a>
-</li>
-<!--END menu konsultasi -->
-<li>
-  <a href="<?=base_url('komenback') ?>" data-toggle="submenu" data-parent=".topmenu">
-    <span class="figure"><i class="ico-comments"></i></span>
-    <span class="text">Komen</span>
-    <span class="arrow"></span>
-  </a>
-</li>
 
 <!-- <li>
   <a href="<?=base_url('token') ?>" data-toggle="submenu" data-parent=".topmenu">
@@ -802,28 +523,7 @@ JS aoutocomplate
   </a>
 </li>
  -->
-<li>
-  <a href="javascript:void(0);" data-target="#token" data-toggle="submenu" data-parent=".topmenu">
-    <span class="figure"><i class="ico-bubble"></i></span>
-    <span class="text">Token</span>
-    <span class="arrow"></span>
-  </a>
 
-  <ul id="token" class="submenu collapse ">
-    <li class="submenu-header ellipsis">Token</li>
-
-    <li >
-      <a href="<?=  base_url('token/daftartoken')?>">
-        <span class="text">Daftar token</span>
-      </a>
-    </li>
-    <li >
-      <a href="<?=  base_url('token/kirimToken')?>">
-        <span class="text">Kirim Token</span>
-      </a>
-    </li>
-  </ul>
-</li>
 
 </ul>
 <!--/ END Template Navigation/Menu -->
